@@ -1037,6 +1037,9 @@
         }
       },
       "Coban.Core/1.0.0": {
+        "dependencies": {
+          "Coban.SharedLibrary": "1.0.0"
+        },
         "runtime": {
           "Coban.Core.dll": {}
         }
@@ -1047,6 +1050,11 @@
         },
         "runtime": {
           "Coban.Entities.dll": {}
+        }
+      },
+      "Coban.SharedLibrary/1.0.0": {
+        "runtime": {
+          "Coban.SharedLibrary.dll": {}
         }
       }
     }
@@ -1763,6 +1771,11 @@
       "sha512": ""
     },
     "Coban.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coban.SharedLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

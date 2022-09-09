@@ -18,20 +18,21 @@ namespace Coban.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetProducts()
+        public async Task<IActionResult> GetCategories()
         {
-            return ActionResultInstance(await _catService.GetAllAsync());
+            var cats = await _catService.GetAllAsync();
+            return ActionResultInstance(cats);
         }
 
         [HttpPost]
-        public async Task<IActionResult> SaveProducts(ProductDTO productDTO)
+        public async Task<IActionResult> SaveProducts(CategoryDTO catDTO)
         {
-            return ActionResultInstance(await _catService.AddAsync(productDTO));
+            return ActionResultInstance(await _catService.AddAsync(catDTO));
         }
         [HttpPut]
-        public async Task<IActionResult> UpdateProduct(ProductDTO productDTO)
+        public async Task<IActionResult> UpdateProduct(CategoryDTO catDTO)
         {
-            return ActionResultInstance(await _catService.UpdateAsync(productDTO, productDTO.Id));
+            return ActionResultInstance(await _catService.UpdateAsync(catDTO, catDTO.Id));
         }
 
         [HttpDelete("{id}")]

@@ -25,6 +25,8 @@ namespace Coban.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+            
+        
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped(typeof(IServiceGeneric<,>), typeof(ServiceGeneric<,>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -37,7 +39,7 @@ namespace Coban.API
                 });
             });
 
-
+           
             services.AddControllers();
         }
 
@@ -47,7 +49,7 @@ namespace Coban.API
             {
                 app.UseDeveloperExceptionPage();
             }
-
+           
             app.UseHttpsRedirection();
 
             app.UseRouting();

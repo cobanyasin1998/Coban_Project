@@ -8,3 +8,16 @@ C:\Users\Yasin\source\repos\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.
 C:\Users\Yasin\source\repos\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.csproj.CoreCompileInputs.cache
 C:\Users\Yasin\source\repos\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.dll
 C:\Users\Yasin\source\repos\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.pdb
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\bin\Debug\netcoreapp3.1\Coban.Core.deps.json
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\bin\Debug\netcoreapp3.1\Coban.Core.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\bin\Debug\netcoreapp3.1\Coban.Core.pdb
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\bin\Debug\netcoreapp3.1\Coban.SharedLibrary.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\bin\Debug\netcoreapp3.1\Coban.SharedLibrary.pdb
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.csproj.AssemblyReference.cache
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.AssemblyInfoInputs.cache
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.AssemblyInfo.cs
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.csproj.CoreCompileInputs.cache
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.csproj.CopyComplete
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.Core\obj\Debug\netcoreapp3.1\Coban.Core.pdb
