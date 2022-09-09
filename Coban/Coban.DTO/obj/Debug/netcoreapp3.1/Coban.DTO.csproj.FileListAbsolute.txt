@@ -1,0 +1,13 @@
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\bin\Debug\netcoreapp3.1\Coban.DTO.deps.json
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\bin\Debug\netcoreapp3.1\Coban.DTO.dll
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\bin\Debug\netcoreapp3.1\Coban.DTO.pdb
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\bin\Debug\netcoreapp3.1\Coban.Core.dll
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\bin\Debug\netcoreapp3.1\Coban.Core.pdb
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\obj\Debug\netcoreapp3.1\Coban.DTO.csproj.AssemblyReference.cache
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\obj\Debug\netcoreapp3.1\Coban.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\obj\Debug\netcoreapp3.1\Coban.DTO.AssemblyInfoInputs.cache
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\obj\Debug\netcoreapp3.1\Coban.DTO.AssemblyInfo.cs
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\obj\Debug\netcoreapp3.1\Coban.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\obj\Debug\netcoreapp3.1\Coban.DTO.csproj.CopyComplete
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\obj\Debug\netcoreapp3.1\Coban.DTO.dll
+C:\Users\Yasin\source\repos\Coban\Coban.DTO\obj\Debug\netcoreapp3.1\Coban.DTO.pdb
