@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Coban.UI/1.0.0": {
         "dependencies": {
+          "Coban.DTO": "1.0.0",
           "Smidge": "4.1.1",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -560,6 +561,36 @@
         },
         "compile": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
+      },
+      "Coban.Core/1.0.0": {
+        "dependencies": {
+          "Coban.SharedLibrary": "1.0.0"
+        },
+        "runtime": {
+          "Coban.Core.dll": {}
+        },
+        "compile": {
+          "Coban.Core.dll": {}
+        }
+      },
+      "Coban.DTO/1.0.0": {
+        "dependencies": {
+          "Coban.Core": "1.0.0"
+        },
+        "runtime": {
+          "Coban.DTO.dll": {}
+        },
+        "compile": {
+          "Coban.DTO.dll": {}
+        }
+      },
+      "Coban.SharedLibrary/1.0.0": {
+        "runtime": {
+          "Coban.SharedLibrary.dll": {}
+        },
+        "compile": {
+          "Coban.SharedLibrary.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2291,6 +2322,21 @@
       "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
       "path": "system.text.json/5.0.0",
       "hashPath": "system.text.json.5.0.0.nupkg.sha512"
+    },
+    "Coban.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coban.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coban.SharedLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

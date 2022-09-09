@@ -46,7 +46,7 @@ namespace Coban.UI
 
             app.UseSmidge(bundle =>
             {
-                bundle.CreateJs("my-bundle-js", "~/js/site.js", "~/lib/jquery/dist/jquery.js", "~/lib/bootstrap/dist/js/bootstrap.bundle.min.js");
+                bundle.CreateJs("my-bundle-js", "~/js/site.js", "~/lib/jquery/dist/jquery.js", "~/lib/bootstrap/dist/js/bootstrap.bundle.min.js", "~/kendo/kendo.all.min.js");
                 bundle.CreateCss("my-bundle-css", "~/lib/bootstrap/dist/css/bootstrap.min.css", "~/css/site.css");
             });
 

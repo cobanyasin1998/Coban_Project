@@ -224,6 +224,42 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
+      },
+      "Coban.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Coban.SharedLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Coban.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coban.Core.dll": {}
+        }
+      },
+      "Coban.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Coban.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Coban.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coban.DTO.dll": {}
+        }
+      },
+      "Coban.SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Coban.SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coban.SharedLibrary.dll": {}
+        }
       }
     }
   },
@@ -590,10 +626,26 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Coban.Core/1.0.0": {
+      "type": "project",
+      "path": "../Coban.Core/Coban.Core.csproj",
+      "msbuildProject": "../Coban.Core/Coban.Core.csproj"
+    },
+    "Coban.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Coban.DTO/Coban.DTO.csproj",
+      "msbuildProject": "../Coban.DTO/Coban.DTO.csproj"
+    },
+    "Coban.SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../Coban.SharedLibrary/Coban.SharedLibrary.csproj",
+      "msbuildProject": "../Coban.SharedLibrary/Coban.SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Coban.DTO >= 1.0.0",
       "Smidge >= 4.1.1"
     ]
   },
@@ -629,7 +681,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Yasin\\Documents\\GitHub\\Coban_Project\\Coban\\Coban.DTO\\Coban.DTO.csproj": {
+              "projectPath": "C:\\Users\\Yasin\\Documents\\GitHub\\Coban_Project\\Coban\\Coban.DTO\\Coban.DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
