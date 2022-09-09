@@ -1,4 +1,10 @@
+using Coban.Core.Repositories;
+using Coban.Core.Services;
+using Coban.Core.UnitOfWork;
 using Coban.Data.Database;
+using Coban.Data.Repositories;
+using Coban.Data.UOW;
+using Coban.Service.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -19,6 +25,9 @@ namespace Coban.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped(typeof(IServiceGeneric<,>), typeof(ServiceGeneric<,>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddDbContext<CobanDbContext>(options =>
             {

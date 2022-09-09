@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Coban.Data\Coban.Data.csproj" />
+    <ProjectReference Include="..\Coban.Service\Coban.Service.csproj" />
   </ItemGroup>
 
 

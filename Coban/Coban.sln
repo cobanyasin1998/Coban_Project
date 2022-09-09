@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coban.Entities", "Coban.Ent
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coban.Service", "Coban.Service\Coban.Service.csproj", "{B166CAD4-60B0-47CC-BB75-ABE3E2915D14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coban.DTO", "Coban.DTO\Coban.DTO.csproj", "{AB0A950F-A241-48EC-A8DF-01319842513E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coban.DTO", "Coban.DTO\Coban.DTO.csproj", "{AB0A950F-A241-48EC-A8DF-01319842513E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coban.SharedLibrary", "Coban.SharedLibrary\Coban.SharedLibrary.csproj", "{73A26074-824F-40BF-850E-9846C8BB19B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{AB0A950F-A241-48EC-A8DF-01319842513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB0A950F-A241-48EC-A8DF-01319842513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB0A950F-A241-48EC-A8DF-01319842513E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A26074-824F-40BF-850E-9846C8BB19B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A26074-824F-40BF-850E-9846C8BB19B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A26074-824F-40BF-850E-9846C8BB19B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A26074-824F-40BF-850E-9846C8BB19B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

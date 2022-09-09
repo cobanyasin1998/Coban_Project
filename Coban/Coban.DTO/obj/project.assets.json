@@ -5,11 +5,24 @@
       "Coban.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Coban.SharedLibrary": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Coban.Core.dll": {}
         },
         "runtime": {
           "bin/placeholder/Coban.Core.dll": {}
+        }
+      },
+      "Coban.SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Coban.SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coban.SharedLibrary.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../Coban.Core/Coban.Core.csproj",
       "msbuildProject": "../Coban.Core/Coban.Core.csproj"
+    },
+    "Coban.SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../Coban.SharedLibrary/Coban.SharedLibrary.csproj",
+      "msbuildProject": "../Coban.SharedLibrary/Coban.SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -33,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yasin\\source\\repos\\Coban\\Coban.DTO\\Coban.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\Yasin\\Documents\\GitHub\\Coban_Project\\Coban\\Coban.DTO\\Coban.DTO.csproj",
       "projectName": "Coban.DTO",
-      "projectPath": "C:\\Users\\Yasin\\source\\repos\\Coban\\Coban.DTO\\Coban.DTO.csproj",
+      "projectPath": "C:\\Users\\Yasin\\Documents\\GitHub\\Coban_Project\\Coban\\Coban.DTO\\Coban.DTO.csproj",
       "packagesPath": "C:\\Users\\Yasin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yasin\\source\\repos\\Coban\\Coban.DTO\\obj\\",
+      "outputPath": "C:\\Users\\Yasin\\Documents\\GitHub\\Coban_Project\\Coban\\Coban.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +77,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Yasin\\source\\repos\\Coban\\Coban.Core\\Coban.Core.csproj": {
-              "projectPath": "C:\\Users\\Yasin\\source\\repos\\Coban\\Coban.Core\\Coban.Core.csproj"
+            "C:\\Users\\Yasin\\Documents\\GitHub\\Coban_Project\\Coban\\Coban.Core\\Coban.Core.csproj": {
+              "projectPath": "C:\\Users\\Yasin\\Documents\\GitHub\\Coban_Project\\Coban\\Coban.Core\\Coban.Core.csproj"
             }
           }
         }
