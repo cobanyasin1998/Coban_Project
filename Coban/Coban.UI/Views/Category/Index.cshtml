@@ -78,16 +78,10 @@
                         if (xhr.responseJSON.error.isShow && xhr.responseJSON.error.errors.length > 0) {
                             let err = "";
                             $.each(xhr.responseJSON.error.errors, function (index, value) {
-                                err += value;
+                                err += value +"</br>";
                             });
 
-                            Swal.fire({
-                                position: 'top-end',
-                                icon: 'success',
-                                title: err,
-                                showConfirmButton: false,
-                                timer: 1500
-                            });
+                            Lib.SweetAlertNotification("error",err,3000);
 
 
                         }
