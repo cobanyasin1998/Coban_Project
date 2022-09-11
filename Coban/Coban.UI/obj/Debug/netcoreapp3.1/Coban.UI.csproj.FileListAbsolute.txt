@@ -60,3 +60,6 @@ C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\bin\Debug\netcoreap
 C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\bin\Debug\netcoreapp3.1\Coban.DTO.pdb
 C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\bin\Debug\netcoreapp3.1\Coban.Core.pdb
 C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\bin\Debug\netcoreapp3.1\Coban.SharedLibrary.pdb
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

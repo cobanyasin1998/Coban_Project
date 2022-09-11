@@ -145,3 +145,9 @@ C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\obj\Debug\netcorea
 C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\obj\Debug\netcoreapp3.1\Coban.API.genruntimeconfig.cache
 C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\obj\Debug\netcoreapp3.1\Coban.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll

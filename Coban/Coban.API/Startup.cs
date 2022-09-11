@@ -5,6 +5,8 @@ using Coban.Data.Database;
 using Coban.Data.Repositories;
 using Coban.Data.UOW;
 using Coban.Service.Services;
+using Coban.SharedLibrary.Extension;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -49,7 +51,11 @@ namespace Coban.API
             });
 
            
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(opt =>
+            {
+                opt.RegisterValidatorsFromAssemblyContaining<Startup>();
+            });
+            services.UseCustomValidationResponse(); 
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

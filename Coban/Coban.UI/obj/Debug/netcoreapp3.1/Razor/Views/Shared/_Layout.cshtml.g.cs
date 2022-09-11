@@ -19,8 +19,15 @@ using Coban.UI;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\Views\_ViewImports.cshtml"
+using Coban.UI.Helper;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e79", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"017d2ecb9bbbbb11e112c40a76ab160329e372c4", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6d14737201687b0f840dec9da4b6344341597258", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -60,7 +67,7 @@ using Coban.UI;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e795936", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e796127", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
 #nullable restore
 #line 6 "C:\Users\Yasin\Documents\GitHub\Coban_Project\Coban\Coban.UI\Views\Shared\_Layout.cshtml"
@@ -70,7 +77,7 @@ using Coban.UI;
 #line hidden
 #nullable disable
                 WriteLiteral(" - Coban</title>\r\n\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e796588", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e796779", async() => {
                 }
                 );
                 __Smidge_TagHelpers_SmidgeLinkTagHelper = CreateTagHelper<global::Smidge.TagHelpers.SmidgeLinkTagHelper>();
@@ -98,12 +105,12 @@ using Coban.UI;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e798507", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e798698", async() => {
                 WriteLiteral("\r\n    <header>\r\n        <nav class=\"navbar navbar-light bg-secondary\">\r\n            <div");
                 BeginWriteAttribute("class", " class=\"", 357, "\"", 365, 0);
                 EndWriteAttribute();
                 WriteLiteral(">\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e799030", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e799221", async() => {
                     WriteLiteral("Coban");
                 }
                 );
@@ -132,7 +139,7 @@ using Coban.UI;
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer class=\"border-top footer text-muted\">\r\n        <div class=\"container\">\r\n            &copy; 2022 - Coban.UI - ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e7911308", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e7911499", async() => {
                     WriteLiteral("Privacy");
                 }
                 );
@@ -152,7 +159,7 @@ using Coban.UI;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n    </footer>\r\n\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e7912994", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0d68cdd91d3cfbaa1af90e50e2fab8398fc5e7913185", async() => {
                 }
                 );
                 __Smidge_TagHelpers_SmidgeScriptTagHelper = CreateTagHelper<global::Smidge.TagHelpers.SmidgeScriptTagHelper>();
